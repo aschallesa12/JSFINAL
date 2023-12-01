@@ -31,6 +31,7 @@ function addToObj(person, key, value) {
   addToObj(obj, 'user', 'student');
   //console.log(obj); // { user: 'student', birthday: 'January 1st', favoriteColor: 'yellow', homeState: 'tennessee', parentsNames: { mother: 'Janine', father: 'Robert' } }
   
-  addToObj(obj, 'user', 'student');
+  addToObj(obj, 7, 'student');
   // Output: Function must be called with a valid key.
   
+  console.log(addToObj(obj, 7, 'student'));
